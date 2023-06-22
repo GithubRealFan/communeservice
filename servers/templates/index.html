@@ -1,0 +1,6 @@
+<h1>Servers</h1>
+<ul>
+    {% for server in servers %}
+        <li>{{ server.name }} ({{ server.ip }} -p{{ server.port }})</li>
+    {% endfor %}
+</ul>
